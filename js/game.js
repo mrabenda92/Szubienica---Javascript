@@ -66,7 +66,6 @@ letters[34] = "Ź";
 
 function start()
 {
-	
 	let div_text ="";
 	
 	for (i=0; i<=34; i++)
@@ -77,7 +76,6 @@ function start()
 	}
 	
 	document.getElementById("alphabet").innerHTML = div_text;
-	
 	
 	write_password();
 }
