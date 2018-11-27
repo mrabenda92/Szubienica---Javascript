@@ -100,8 +100,7 @@ check_word = (nr) =>{
 		}
 	}
 	
-	if(correct_option == true)
-	{
+	if(correct_option == true) {
 		let element = "lett" + nr;
 		document.getElementById(element).style.background = "#003300";
 		document.getElementById(element).style.color = "#00C000";
@@ -110,8 +109,8 @@ check_word = (nr) =>{
 		
 		write_password();
 	}
-	else
-	{
+
+	else {
 		let element = "lett" + nr;
 		document.getElementById(element).style.background = "#330000";
 		document.getElementById(element).style.color = "#C00000";
