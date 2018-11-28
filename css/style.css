@@ -1,7 +1,7 @@
 body
 {
 	background-color: #000000;
-	color: lightgray;
+	color: rgb(211, 211, 211);
 	font-size: 28px;
 	font-family: 'Inconsolata';
 	font-weight: 700;
@@ -47,7 +47,7 @@ body
 	text-align:center;
 	padding: 5px;
 	margin: 5px;
-	border: 3px solid gray;
+	border: 3px solid rgb(128, 128, 128);
 	float: left;
 	cursor: pointer;
 	border-radius: 15px;
@@ -56,18 +56,18 @@ body
 .letter:hover
 {
 	background-color: #222222;
-	color: white;
-	border: 3px solid white;
+	color: rgb(255, 255, 255);
+	border: 3px solid rgb(255, 255, 255);
 }
 
 .reset
 {
-	color:green;
+	color:rgb(0, 128, 0);
 	cursor: pointer;
 	font-size: 48px;
 }
 
 .reset:hover
 {
-	color:white;
+	color:rgb(255, 255, 255);
 }
